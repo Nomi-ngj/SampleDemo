@@ -29,6 +29,16 @@ Press Cmd+U to run the tests.
 # Screenshots Demo
 
 
+**Product List**
+
+
+  <a href="">
+    <img src="https://user-images.githubusercontent.com/17121200/199002131-fc29e234-2111-4e1c-b9cf-49167a2f93fc.png" alt="Logo" width="300" height="400">
+  </a>
+
+
+**Product Details**
+
 
   <a href="">
     <img src="https://user-images.githubusercontent.com/17121200/199002131-fc29e234-2111-4e1c-b9cf-49167a2f93fc.png" alt="Logo" width="300" height="400">
