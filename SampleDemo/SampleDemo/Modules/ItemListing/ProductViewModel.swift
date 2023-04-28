@@ -14,7 +14,7 @@ class ProductViewModel{
     var serviceFailure:((Error)->Void)?
     
     func loadService() {
-        URLSessionService.shared.fetchData(url: ProductServiceContants.url) { (result:Result<CharactersResponseModel, Error>) in
+        URLSessionService.shared.fetchData(url: NetworkContants.url) { (result:Result<CharactersResponseModel, Error>) in
             switch result {
             case .success(let success):
                 self.responesModel = success
