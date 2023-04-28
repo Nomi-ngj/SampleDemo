@@ -31,15 +31,16 @@ Press Cmd+U to run the tests.
 
 **Product List**
 
-
   <a href="">
-    <img src="https://user-images.githubusercontent.com/17121200/199002131-fc29e234-2111-4e1c-b9cf-49167a2f93fc.png" alt="Logo" width="300" height="400">
+        <img src="https://user-images.githubusercontent.com/17121200/235238029-a84bf753-1f78-4c61-b8c6-4deaa02eb801.png" alt="Logo" width="270" height="500">
   </a>
 
 
 **Product Details**
 
+# Note: 
+Not sure why the image url's are not working in the detail screen.
 
   <a href="">
-    <img src="https://user-images.githubusercontent.com/17121200/199002131-fc29e234-2111-4e1c-b9cf-49167a2f93fc.png" alt="Logo" width="300" height="400">
+    <img src="https://user-images.githubusercontent.com/17121200/235238169-1ff3728f-ce57-4a40-ae9e-4f1fa9bfb20e.png" alt="Logo" width="270" height="500">
   </a>
