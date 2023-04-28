@@ -16,6 +16,7 @@
 		8C4D2E4529FBF1B600EECE7F /* SampleDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4D2E4429FBF1B600EECE7F /* SampleDemoTests.swift */; };
 		8C4D2E4F29FBF1B600EECE7F /* SampleDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4D2E4E29FBF1B600EECE7F /* SampleDemoUITests.swift */; };
 		8C4D2E5129FBF1B600EECE7F /* SampleDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4D2E5029FBF1B600EECE7F /* SampleDemoUITestsLaunchTests.swift */; };
+		8C4D2E5F29FBF2DD00EECE7F /* URLSessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4D2E5E29FBF2DD00EECE7F /* URLSessionService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8C4D2E4A29FBF1B600EECE7F /* SampleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4D2E4E29FBF1B600EECE7F /* SampleDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDemoUITests.swift; sourceTree = "<group>"; };
 		8C4D2E5029FBF1B600EECE7F /* SampleDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C4D2E5E29FBF2DD00EECE7F /* URLSessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		8C4D2E2C29FBF1B500EECE7F /* SampleDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8C4D2E5D29FBF2AC00EECE7F /* Networking */,
 				8C4D2E2D29FBF1B500EECE7F /* AppDelegate.swift */,
 				8C4D2E2F29FBF1B500EECE7F /* SceneDelegate.swift */,
 				8C4D2E3129FBF1B500EECE7F /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				8C4D2E5029FBF1B600EECE7F /* SampleDemoUITestsLaunchTests.swift */,
 			);
 			path = SampleDemoUITests;
+			sourceTree = "<group>";
+		};
+		8C4D2E5D29FBF2AC00EECE7F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8C4D2E5E29FBF2DD00EECE7F /* URLSessionService.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			files = (
 				8C4D2E3229FBF1B500EECE7F /* ViewController.swift in Sources */,
 				8C4D2E2E29FBF1B500EECE7F /* AppDelegate.swift in Sources */,
+				8C4D2E5F29FBF2DD00EECE7F /* URLSessionService.swift in Sources */,
 				8C4D2E3029FBF1B500EECE7F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
