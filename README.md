@@ -38,7 +38,7 @@ Press Cmd+U to run the tests.
 
 **Product Details**
 
-# Note: 
+**Note**
 Not sure why the image url's are not working in the detail screen.
 
   <a href="">
